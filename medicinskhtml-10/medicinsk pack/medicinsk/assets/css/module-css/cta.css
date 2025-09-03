@@ -1,0 +1,209 @@
+
+/** cta-section **/
+
+.cta-section{
+  position: relative;
+  padding-top: 53px;
+}
+
+.cta-section .inner-container{
+  position: relative;
+  display: block;
+  background: var(--theme-color);
+  border-radius: 20px 20px 0px 0px;
+  padding: 47px 40px 38px 110px;
+}
+
+.cta-section .inner-container .image-layer{
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+}
+
+.cta-section .content-box{
+  position: relative;
+  max-width: 530px;
+  z-index: 1;
+}
+
+.cta-section .content-box h2{
+  display: block;
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.cta-section .content-box .support-box{
+  position: relative;
+  display: block;
+  padding: 0px 0px 0px 83px;
+}
+
+.cta-section .content-box .support-box .icon-box{
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  top: 0px;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  background: var(--secondary-color);
+  border-radius: 50%;
+}
+
+.cta-section .content-box .support-box span{
+  position: relative;
+  display: block;
+  font-size: 30px;
+  line-height: 58px;
+  font-family: var(--secondary-font);
+  color: #fff;
+  font-weight: 700;
+}
+
+.cta-section .content-box .support-box span a{
+  display: inline-block;
+  color: #fff;
+}
+
+.cta-section .content-box .support-box span a:hover{
+  text-decoration: underline;
+}
+
+
+
+/** RTL-CSS **/
+
+.rtl .cta-section{
+  direction: ltr;
+}
+
+.rtl .cta-section .content-box{
+  text-align: right;
+}
+
+.rtl .cta-section .content-box .support-box{
+  padding-left: 0px;
+  padding-right: 83px;
+}
+
+.rtl .cta-section .content-box .support-box .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .cta-section .inner-container .image-layer{
+    display: none;
+  }
+
+  .cta-section{
+    padding-top: 0px;
+  }
+
+  .cta-section .content-box{
+    max-width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .cta-section .inner-container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .cta-section .content-box h2{
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+  .cta-section .content-box .support-box{
+    padding: 0px !important;
+  }
+
+  .cta-section .content-box .support-box .icon-box{
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .cta-section .content-box .support-box span{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

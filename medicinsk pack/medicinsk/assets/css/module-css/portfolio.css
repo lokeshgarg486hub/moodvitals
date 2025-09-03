@@ -1,0 +1,292 @@
+
+/** portfolio-section **/
+
+.portfolio-section{
+  position: relative;
+}
+
+.portfolio-block-one .inner-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.portfolio-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.portfolio-block-one .inner-box .image-box:before{
+  position: absolute;
+  content: '';
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(14, 54, 114, 0.8) 68.75%);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.portfolio-block-one .inner-box:hover .image-box:before{
+  opacity: 1;
+}
+
+.portfolio-block-one .inner-box .image-box img{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.portfolio-block-one .inner-box:hover .image-box img{
+  transform: scale(1.05);
+}
+
+.portfolio-block-one .inner-box .view-btn{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+.portfolio-block-one .inner-box .view-btn a{
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  color: #fff;
+  transform: scale(0,0);
+}
+
+.portfolio-block-one .inner-box:hover .view-btn a{
+  transform: scale(1,1);
+}
+
+.portfolio-block-one .inner-box .text-box{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding-left: 50px;
+  padding-right: 30px;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.portfolio-block-one .inner-box:hover .text-box{
+  opacity: 1;
+  bottom: 45px;
+}
+
+.portfolio-block-one .inner-box .text-box h3{
+  display: block;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.portfolio-block-one .inner-box .text-box h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.portfolio-block-one .inner-box .text-box h3 a:hover{
+  text-decoration: underline;
+}
+
+.portfolio-block-one .inner-box .text-box span{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+}
+
+
+/** portfolio-style-two **/
+
+.portfolio-style-two{
+  background: #F5F8FA;
+  padding: 114px 0px 90px 0px;
+}
+
+.portfolio-style-two .portfolio-block-one .inner-box{
+  margin-bottom: 30px;
+}
+
+.portfolio-style-two .pattern-layer{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 252px;
+  height: 291px;
+  background-repeat: no-repeat;
+}
+
+.portfolio-page-section{
+  position: relative;
+}
+
+.portfolio-page-section .portfolio-block-one .inner-box{
+  margin-bottom: 30px;
+}
+
+.portfolio-page-section .outer-container{
+  position: relative;
+  margin: 0px 15px;
+}
+
+.portfolio-page-section .outer-container .masonry-item{
+  padding: 0px 0px;
+}
+
+.portfolio-page-section .outer-container .portfolio-block-one .inner-box{
+  margin-bottom: 0px;
+}
+
+.portfolio-page-section .filter-tabs li{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: var(--title-font);
+  color: var(--title-color);
+  border: 1px solid #BDBDBD;
+  border-radius: 30px;
+  padding: 9px 35px;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0px 8px;
+  transition: all 500ms ease;
+}
+
+.portfolio-page-section .filter-tabs li:hover,
+.portfolio-page-section .filter-tabs li.active{
+  color: #fff;
+  border-color: var(--secondary-color);
+  background: var(--secondary-color);
+}
+
+.portfolio-page-section .filter-tabs li:before{
+  position: absolute;
+  content: '';
+  background: var(--secondary-color);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 30px;
+  z-index: -1;
+  transform: scale(0,0);
+  transition: all 500ms ease;
+}
+
+.portfolio-page-section .filter-tabs li:hover:before,
+.portfolio-page-section .filter-tabs li.active:before{
+  transform: scale(1,1);
+}
+
+
+
+
+/** RTL-CSS **/
+
+.rtl .portfolio-block-one .inner-box .text-box{
+  text-align: right;
+}
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .portfolio-block-one .inner-box .text-box{
+    padding-left: 30px;
+  }
+
+  .portfolio-page-section{
+    padding: 70px 0px 40px 0px;
+  }
+
+  .portfolio-page-section .outer-container{
+    padding-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

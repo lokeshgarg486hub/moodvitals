@@ -1,0 +1,116 @@
+
+/** error-section **/
+
+.error-section{
+  position: relative;
+}
+
+.error-section h1{
+  position: relative;
+  display: block;
+  font-size: 200px;
+  line-height: 160px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.error-section h2{
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
+
+/** RTL-CSS **/
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .error-section{
+    padding: 90px 0px 100px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+  .error-section h1{
+    font-size: 180px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

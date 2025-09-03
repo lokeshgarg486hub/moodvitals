@@ -1,0 +1,239 @@
+
+/** google-map-section **/
+
+.google-map-section{
+  position: relative;
+}
+
+.google-map-section #contact-google-map{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.google-map-section .content-box{
+  position: absolute;
+  left: 0px;
+  top: 87px;
+  right: 0px;
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.google-map-section .content-box .inner-box{
+  position: relative;
+  display: block;
+  max-width: 310px;
+  background: #111;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.google-map-section .content-box .inner-box h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 600;
+  padding: 25px 25px 24px 30px;
+  background: var(--theme-color);
+}
+
+.google-map-section .content-box .content-inner{
+  position: relative;
+  display: block;
+  padding: 28px 30px 48px 30px;
+}
+
+.google-map-section .content-box .schedule-list li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.google-map-section .content-box .schedule-list li span{
+  font-weight: 400;
+  float: right;
+}
+
+.google-map-section .content-box .schedule-list{
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(189, 189, 189, 0.2);
+}
+
+.google-map-section .content-box h4{
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.google-map-section .content-box .info-list li{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 29px;
+  color: #fff;
+  padding-left: 37px;
+}
+
+.google-map-section .content-box .info-list li a{
+  display: inline-block;
+  color: #fff;
+}
+
+.google-map-section .content-box .info-list li a:hover{
+  text-decoration: underline;
+}
+
+.google-map-section .content-box .info-list li i{
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  font-size: 18px;
+  color: var(--theme-color);
+}
+
+
+.contact-section{
+  position: relative;
+}
+
+.contact-section h2{
+  position: relative;
+  display: block;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea{
+  padding: 10px 20px !important;
+}
+
+.contact-section textarea{
+  height: 182px;
+}
+
+.contact-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 271px;
+  height: 185px;
+}
+
+
+
+
+/** RTL-CSS **/
+
+.rtl .google-map-section .content-box .schedule-list li span{
+  float: left;
+}
+
+.rtl .google-map-section .content-box .info-list li{
+  padding-left: 0px;
+  padding-right: 37px;
+}
+
+.rtl .google-map-section .content-box .info-list li i{
+  left: inherit;
+  right: 0px;
+}
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

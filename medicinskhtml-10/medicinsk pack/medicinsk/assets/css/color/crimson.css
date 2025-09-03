@@ -1,0 +1,97 @@
+
+
+
+/* color */
+
+
+.scroll-to-top .scroll-bar-text,
+.main-menu .navigation > li > ul > li > ul > li > a:hover,
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover,
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li:hover > a,
+.main-header .menu-right-content .support-box h6 a:hover,
+.banner-carousel .content-box h2 span,
+.sec-title .sub-title,
+.list-style-one li:before,
+.news-block-one .inner-box .lower-content h3 a:hover,
+.news-block-one .inner-box .lower-content .post-info li i,
+.news-block-one .inner-box .lower-content .post-info li a:hover,
+.news-block-one .inner-box .lower-content .link a:hover,
+.google-map-section .content-box .info-list li i,
+.main-footer .about-widget .social-links li a:hover,
+.main-footer .links-widget .links-list li a:hover,
+.main-footer .footer-menu .menu-list li a:hover,
+.footer-bottom p a,
+.banner-style-two .content-box h2 span,
+.funfact-block-one .inner-box .count-outer,
+.chooseus-block-one .inner-box .icon-box .count-text,
+.service-block-two .inner-box h3 a:hover,
+.accordion .acc-btn.active .icon-box,
+.page-title .bread-crumb li,
+.team-details .team-info-box .education-info li .icon-box,
+.blog-sidebar .category-widget .category-list li a:hover,
+.blog-sidebar .post-widget .post h3 a:hover,
+.blog-sidebar .post-widget .post-info li i,
+.blog-sidebar .post-widget .post-info li a:hover,
+.blog-details-content .post-share-option .post-share li a:hover,
+.blog-details-content .author-box .social-links li a:hover
+
+{
+  color: var(--crimson-color) !important;
+}
+
+
+
+/** background **/
+
+.switcher .switch_btn button,
+button.rtl,
+button.ltr,
+.main-header .menu-right-content .support-box .icon-box,
+.theme-btn.btn-one:before,
+.theme-btn.btn-one:hover,
+.theme-btn.btn-two,
+.info-block-one .inner-box .icon-box,
+.appointment-box h4,
+.service-block-one .inner-box .lower-content:before,
+.appointment-section .left-column .content-box,
+.working-block-one .inner-box .image-box .count-text,
+.team-block-one .inner-box .content-box:before,
+.news-block-one .inner-box:hover .lower-content .comment-box,
+.google-map-section .content-box .inner-box h3,
+.chooseus-block-one .inner-box .icon-box:before,
+.chooseus-block-one .inner-box:hover .icon-box,
+.main-header .menu-right-content .search-box-outer:hover,
+.video-section .video-btn a,
+.content_block_six .content-box .btn-box button.app-store,
+.subscribe-section .form-inner .form-group button[type='submit'],
+.service-sidebar .schedule-widget,
+.pricing-block-one .pricing-table .popular-tags,
+.pricing-block-one .pricing-table .popular-tags:before,
+.pricing-block-one .pricing-table .popular-tags:after,
+.pagination li a:hover,
+.pagination li a.current,
+.blog-sidebar .search-widget form .form-group button[type='submit'],
+.blog-details-content .post-share-option .post-tags li a:hover
+
+{
+  background: var(--crimson-color) !important;
+}
+
+
+
+
+/** border-color **/
+
+.appointment-section .left-column .content-box:before,
+.appointment-section .right-column .form-inner .form-group input:focus,
+.appointment-section .right-column .form-inner .form-group textarea:focus,
+.main-header .menu-right-content .search-box-outer:hover,
+.accordion .acc-btn.active .icon-box,
+.pagination li a:hover,
+.pagination li a.current
+
+{
+  border-color: var(--crimson-color) !important;
+}

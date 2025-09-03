@@ -1,0 +1,205 @@
+
+/** working-section **/
+
+.working-section{
+  position: relative;
+}
+
+.working-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.working-block-one .inner-box{
+  position: relative;
+  display: block;
+  max-width: 286px;
+  margin: 0 auto;
+}
+
+.working-block-one .inner-box .image-box{
+  position: relative;
+  display: inline-block;
+  width: 286px;
+  height: 286px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 17px;
+  border: 1px dashed #BDBDBD;
+  box-shadow: 0px 4px 30px rgba(205, 192, 192, 0.25);
+  margin-bottom: 20px;
+}
+
+.working-block-one .inner-box .image-box .image{
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.working-block-one .inner-box .image-box .image img{
+  width: 100%;
+  border-radius: 50%;
+  transition: all 500ms ease;
+}
+
+.working-block-one .inner-box:hover .image-box .image img{
+  transform: scale(1.05);
+}
+
+.working-block-one .inner-box .image-box .count-text{
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 50%;
+  background: var(--theme-color);
+  z-index: 1;
+}
+
+.working-block-one .inner-box .image-box .count-text:before{
+  position: absolute;
+  content: '';
+  background: var(--secondary-color) !important;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  transform: scale(0,0);
+  z-index: -1;
+  border-radius: 50%;
+  transition: all 500ms ease;
+}
+
+.working-block-one .inner-box:hover .image-box .count-text:before{
+  transform: scale(1,1);
+}
+
+.working-block-one .inner-box .lower-content h3{
+  position: relative;
+  display: block;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.working-section .inner-container .arrow-shape{
+  position: absolute;
+  left: 0px;
+  top: 45px;
+  width: 1304px;
+  height: 204px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .working-block-one{
+    margin-bottom: 30px;
+  }
+
+  .working-section .inner-container .arrow-shape{
+    display: none;
+  }
+
+  .working-section{
+    padding-bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

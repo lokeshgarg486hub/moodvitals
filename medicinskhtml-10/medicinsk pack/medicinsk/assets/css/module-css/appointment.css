@@ -1,0 +1,352 @@
+
+/** appointment-section **/
+
+.appointment-section{
+  position: relative;
+  background: var(--secondary-color);
+}
+
+.appointment-section .left-column{
+  position: relative;
+  float: left;
+  width: 50%;
+  padding: 432px 0px 24px 0px;
+  min-height: 735px;
+  clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%, 0% 0%);
+}
+
+.appointment-section .left-column .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.appointment-section .left-column .content-box{
+  position: absolute;
+  right: 0px;
+  bottom: 24px;
+  width: 423px;
+  background: var(--theme-color);
+  padding: 32px 70px 32px 40px;
+  border-radius: 10px;
+}
+
+.appointment-section .left-column .content-box:before{
+  position: absolute;
+  content: '';
+  border: 1px solid var(--theme-color);
+  width: 100%;
+  height: 100%;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+
+.appointment-section .left-column .content-box .icon-box{
+  position: relative;
+  display: block;
+  margin-bottom: 9px;
+}
+
+.appointment-section .left-column .content-box h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.appointment-section .left-column .content-box span{
+  position: relative;
+  display: block;
+  font-size: 30px;
+  line-height: 38px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  color: #fff;
+}
+
+.appointment-section .left-column .content-box span a{
+  display: inline-block;
+  color: #fff;
+}
+
+.appointment-section .left-column .content-box span a:hover{
+  text-decoration: underline;
+}
+
+.appointment-section .right-column{
+  position: relative;
+  float: right;
+  width: 50%;
+  padding: 74px 30px 109px 60px;
+}
+
+.appointment-section .right-column .form-inner{
+  position: relative;
+  display: block;
+  background: #fff;
+  max-width: 526px;
+  padding: 50px 50px 58px 50px;
+}
+
+.appointment-section .right-column .form-inner:before{
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 52px;
+  height: 52px;
+  left: 0px;
+  bottom: -52px;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%, 0% 0%);
+}
+
+.appointment-section .right-column .form-inner .shape{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 359px;
+  height: 245px;
+  background-repeat: no-repeat;
+}
+
+.appointment-section .right-column .form-inner h3{
+  display: block;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.appointment-section .right-column .form-inner .form-group{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.appointment-section .right-column .form-inner .form-group input[type='text'],
+.appointment-section .right-column .form-inner .form-group input[type='email'],
+.appointment-section .right-column .form-inner .form-group textarea{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgba(189, 189, 189, 0.6);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #BDBDBD;
+  background: #fff;
+  padding: 10px 20px 10px 46px;
+  transition: all 500ms ease;
+}
+
+.appointment-section .right-column .form-inner .form-group .icon{
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  font-size: 16px;
+  color: #BDBDBD;
+  z-index: 1;
+}
+
+.appointment-section .right-column .form-inner .form-group textarea{
+  height: 136px;
+  resize: none;
+}
+
+.appointment-section .right-column .form-inner .form-group input:focus,
+.appointment-section .right-column .form-inner .form-group textarea:focus{
+  border-color: var(--theme-color);
+}
+
+.appointment-section .pattern-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 584px;
+  height: 544px;
+  background-repeat: no-repeat;
+}
+
+.appointment-section .image-layer{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+/** appointment-style-two **/
+
+.appointment-style-two{
+  padding-bottom: 120px;
+}
+
+.appointment-style-two h2{
+  display: block;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.appointment-style-two .form-group{
+  margin-bottom: 20px !important;
+}
+
+.appointment-style-two .single-column:last-child .form-group{
+  margin-bottom: 0px !important;
+}
+
+.appointment-style-two .form-group.message-btn{
+  margin-top: 40px;
+}
+
+
+
+
+/** RTL-CSS **/
+
+.rtl .appointment-section{
+  direction: ltr;
+}
+
+.rtl .appointment-section .left-column .content-box{
+  text-align: right;
+}
+
+.rtl .appointment-section .right-column .form-inner{
+  text-align: right;
+}
+
+.rtl .appointment-section .right-column .form-inner .form-group input,
+.rtl .appointment-section .right-column .form-inner .form-group textarea{
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 46px;
+}
+
+.rtl .appointment-section .right-column .form-inner .form-group .icon{
+  left: inherit;
+  right: 20px;
+}
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .appointment-section .right-column{
+    padding-left: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .appointment-section .left-column,
+  .appointment-section .right-column{
+    float: none;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .appointment-section .left-column{
+    padding-top: 80px;
+  }
+
+  .appointment-section.about-page .content_block_five .content-box{
+    margin-top: 0px;
+  }
+
+  .appointment-style-two{
+    padding-bottom: 70px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  .appointment-section .left-column .content-box{
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 499px){
+
+  .appointment-section .right-column .form-inner{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .appointment-section .right-column{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

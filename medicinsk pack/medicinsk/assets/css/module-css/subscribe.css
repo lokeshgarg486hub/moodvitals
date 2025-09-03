@@ -1,0 +1,257 @@
+
+/** subscribe-section **/
+
+.subscribe-section{
+  position: relative;
+}
+
+.subscribe-section .inner-container{
+  position: relative;
+  display: block;
+  background: var(--secondary-color);
+  padding: 40px;
+  border-radius: 15px;
+  margin-bottom: -60px;
+  z-index: 1;
+}
+
+.subscribe-section .content-box{
+  position: relative;
+  display: block;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 44px 30px 43px 50px;
+}
+
+.subscribe-section h2{
+  position: relative;
+  display: block;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.subscribe-section .content-box .light-icon{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.subscribe-section .content-box .support-box{
+  position: relative;
+  display: block;
+  padding-left: 67px;
+}
+
+.subscribe-section .content-box .support-box .icon-box{
+  position: absolute;
+  left: 0px;
+  top: 8px;
+}
+
+.subscribe-section .content-box .support-box span{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 29px;
+  color: #fff;
+}
+
+.subscribe-section .content-box .support-box a{
+  display: inline-block;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.subscribe-section .content-box .support-box a:hover{
+  text-decoration: underline;
+}
+
+.subscribe-section .form-inner{
+  position: relative;
+  display: block;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 44px 120px 44px 50px;
+}
+
+.subscribe-section .form-inner .form-group{
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.subscribe-section .form-inner .form-group input[type='email']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 58px;
+  background: #1E5BCF;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 29px;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 170px 10px 30px;
+  transition: all 500ms ease;
+}
+
+.subscribe-section .form-inner .form-group button[type='submit']{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  width: 140px;
+  height: 58px;
+  text-align: center;
+  border-radius: 0px 29px 29px 0px;
+  background: var(--theme-color);
+}
+
+.subscribe-section .form-inner .form-group input:focus{
+  border-color: #fff;
+}
+
+
+
+/** RTL-CSS **/
+
+.rtl .subscribe-section .content-box .light-icon{
+  right: inherit;
+  left: 30px;
+}
+
+.rtl .subscribe-section .content-box .support-box{
+  padding-left: 0px;
+  padding-right: 67px;
+}
+
+.rtl .subscribe-section .content-box .support-box .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+
+
+@media only screen and (max-width: 1200px){
+
+  .subscribe-section .form-inner{
+    padding-right: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .subscribe-section .content-box{
+    margin-bottom: 30px;
+  }
+
+  .subscribe-section .inner-container{
+    margin-bottom: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .subscribe-section .content-box .light-icon{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  .subscribe-section .content-box,
+  .subscribe-section .form-inner{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .subscribe-section .content-box .support-box{
+    padding-left: 0px;
+  }
+
+  .subscribe-section .content-box .support-box .icon-box{
+    position: relative;
+    top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-section .form-inner .form-group button[type='submit']{
+    position: relative;
+    width: 100%;
+    border-radius: 29px;
+    margin-top: 20px;
+  }
+
+  .subscribe-section .form-inner .form-group input[type='email']{
+    padding-right: 30px;
+  }
+
+  .rtl .subscribe-section .content-box .support-box{
+    padding-right: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

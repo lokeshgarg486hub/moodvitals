@@ -1,0 +1,163 @@
+
+/** page-title **/
+
+.page-title{
+  padding: 275px 0px 218px 0px;
+}
+
+.page-title .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-title .image-layer{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.page-title h1{
+  position: relative;
+  display: block;
+  font-size: 54px;
+  line-height: 68px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.page-title .bread-crumb li{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: var(--title-font);
+  color: var(--theme-color);
+  padding-right: 25px;
+  margin-right: 3px;
+}
+
+.page-title .bread-crumb li a{
+  color: var(--title-color);
+}
+
+.page-title .bread-crumb li a:hover{
+  text-decoration: underline;
+}
+
+.page-title .bread-crumb li:before{
+  position: absolute;
+  content: '\e915';
+  font-family: 'icomoon';
+  top: 1px;
+  right: 0px;
+  color: #717171;
+  font-size: 18px;
+}
+
+.page-title .bread-crumb li:last-child:before{
+  display: none;
+}
+
+
+
+/** RTL-CSS **/
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .page-title .image-layer{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .page-title{
+    padding: 200px 0px 100px 0px;
+  }
+
+  .page-title h1{
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

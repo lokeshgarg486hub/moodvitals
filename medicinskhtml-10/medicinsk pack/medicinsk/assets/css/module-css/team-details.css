@@ -1,0 +1,297 @@
+
+/** team-details **/
+
+.team-details{
+  position: relative;
+}
+
+.team-details .image-box{
+  position: relative;
+  display: block;
+  border-radius: 23px;
+}
+
+.team-details .image-box img{
+  width: 100%;
+  border-radius: 23px;
+}
+
+.team-details .content-box{
+  position: relative;
+  display: block;
+  background: #F5F8FA;
+  box-shadow: 0px 4px 30px rgba(205, 192, 192, 0.25);
+  border-radius: 20px;
+  padding: 60px 50px 124px 55px;
+}
+
+.team-details .content-box h2{
+  display: block;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.team-details .content-box .designation{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.team-details .content-box p{
+  margin-bottom: 30px;
+}
+
+.team-details .content-box p:last-child{
+  margin-bottom: 0px;
+}
+
+.team-details .team-info-box{
+  position: relative;
+  padding: 40px 0px;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.team-details .team-info-box:before{
+  position: absolute;
+  content: '';
+  background: #E1E1E1;
+  width: 1px;
+  height: 100%;
+  left: 50%;
+  top: 0px;
+}
+
+.team-details .team-info-box h3{
+  position: relative;
+  display: block;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.team-details .team-info-box .education-info li{
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  padding-left: 37px;
+}
+
+.team-details .team-info-box .education-info li:last-child{
+  margin-bottom: 0px;
+}
+
+.team-details .team-info-box .education-info li .icon-box{
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  font-size: 24px;
+  color: var(--theme-color);
+}
+
+.team-details .team-info-box .education-info li:last-child .icon-box{
+  top: 0px;
+}
+
+.team-details .team-info-box .education-info li span{
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.team-details .team-info-box .progress-inner{
+  max-width: 580px;
+}
+
+.team-details .team-info-box .schedule-list{
+  max-width: 510px;
+}
+
+.team-details .team-info-box .schedule-list li{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--title-color);
+  margin-bottom: 26px;
+}
+
+.team-details .team-info-box .schedule-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.team-details .team-info-box .schedule-list li span{
+  float: right;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.team-details .team-info-box .schedule-list li:last-child span{
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.team-details .contact-box h3{
+  display: block;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.team-details .contact-box .form-group{
+  margin-bottom: 20px;
+}
+
+.team-details .contact-box .form-group.message-btn{
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.team-details .team-info-box .right-column{
+  margin-left: 70px;
+}
+
+
+
+/** RTL-CSS **/
+
+.rtl .team-details .team-info-box .right-column{
+  margin-right: 70px;
+  margin-left: 0px;
+}
+
+.rtl .team-details .team-info-box .schedule-list li span{
+  float: left;
+}
+
+.rtl .team-details .team-info-box .education-info li{
+  padding-left: 0px;
+  padding-right: 37px;
+}
+
+.rtl .team-details .team-info-box .education-info li .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .progress-box .count-text{
+  right: inherit;
+  left: -10px;
+}
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .team-details .image-box{
+    margin-bottom: 30px;
+  }
+
+  .team-details .team-info-box:before{
+    display: none;
+  }
+
+  .team-details .team-info-box .right-column{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .rtl .team-details .team-info-box .right-column{
+    margin-right: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .team-details .content-box{
+    padding: 45px 30px 50px 30px;
+  }
+
+  .team-details{
+    padding: 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+  .team-details .team-info-box .education-info li span{
+    display: block;
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

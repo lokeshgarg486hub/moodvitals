@@ -1,0 +1,140 @@
+
+/** clients-section **/
+
+.clients-section{
+  background: var(--secondary-color);
+}
+
+.clients-section .sec-title .sub-title,
+.clients-section .sec-title p{
+  color: #fff !important;
+}
+
+.clients-section .clients-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-section .clients-list img{
+  position: relative;
+  display: block;
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+  transition: all 500ms ease;
+}
+
+.clients-section .clients-list img:hover{
+  transform: scale(1.05);
+}
+
+.clients-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+/** RTL-CSS **/
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+  
+
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .clients-section .clients-list{
+    display: block;
+  }
+
+  .clients-section .clients-list li{
+    margin-bottom: 20px;
+  }
+
+  .clients-section .clients-list li:last-child{
+    margin-bottom: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+  
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
